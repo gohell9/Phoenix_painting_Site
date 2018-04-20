@@ -1,0 +1,2354 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+.navbar-fixed-top.navbar.navbar-inverse{
+	
+	background-color: white;
+}
+
+.navbar .container{
+	background-color: white;
+}
+
+.navbar .container ul li a{
+	font-size: 16px;
+	color: #FF6700;
+	transition: all 0.1s 0.1s linear;
+}
+
+.navbar .container ul li a:hover{
+	color: white;
+	background-color: #FF6700;
+/*	box-shadow: 2px 2px 20px rgba(111,111,111,0.4);*/
+	
+}
+
+#navBar{
+	/*border: 1px solid green;*/
+	margin-top: 29px;
+}
+
+
+/*轮播图区域开始*/
+
+#myCarousel{
+	margin-top: 70px;
+}
+
+#myCarousel .carousel-indicators{
+	/*border: 1px solid red;*/
+	top: 90%;
+}
+
+
+#myCarousel .carousel-inner div .carousel-caption{
+	color: white;
+	font-size: 20px;
+	/*outline: 1px solid blue;*/
+	margin-bottom: 200px;
+}
+
+/*----------------轮播图每页内容的css样式开始-------------------*/
+
+/*第一页*/
+
+#myCarousel .carousel-inner div .one .h1{
+	font-family: "微软雅黑";
+	font-size: 54px;
+	display: inline;
+	/*outline: 3px solid white;*/
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+
+}
+
+#myCarousel .carousel-inner div .one .h3{
+	font-family: "微软雅黑";
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#myCarousel .carousel-inner div .one a{
+	transition: all 0.2s;
+	display: inline-block;
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	font-family: "微软雅黑";
+}
+
+#myCarousel .carousel-inner div .one a:hover{
+	background-color: #ff6700;
+	border: 1px solid #ff6700;
+}
+
+
+
+
+		/*第2页*/
+#myCarousel .carousel-inner div .two .h1{
+	font-size: 54px;
+	display: inline;
+	outline: 3px solid white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+
+}
+
+
+#myCarousel .carousel-inner div .two .h3{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#myCarousel .carousel-inner div .two a{
+	
+	display: block;
+	margin-top: 40px;
+	text-decoration: none;
+}
+
+
+#myCarousel .carousel-inner div .two .course{
+	margin-top: 40px;
+	border: 1px solid white;
+	display: inline;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+	transition: all 0.3s 0.1s linear;
+	color: white;
+}
+
+#myCarousel .carousel-inner div .two .course:hover{
+	background-color: #FF6700;
+	color: white;
+	border: 1px solid #FF6700;
+	
+}
+
+
+	/*第3页*/
+#myCarousel .carousel-inner div .three .h1{
+	font-size: 54px;
+	display: inline;
+	outline: 3px solid white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}	
+
+
+#myCarousel .carousel-inner div .three .h3{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#myCarousel .carousel-inner div .three a{
+	margin-left: 15px;
+	display: inline-block;
+	margin-top: 40px;
+	text-decoration: none;
+}
+
+
+#myCarousel .carousel-inner div .three .contact{
+	background-color: #FF6700;
+	border: 1px solid #FF6700;
+}
+
+#myCarousel .carousel-inner div .three .course{
+	margin-top: 40px;
+	border: 1px solid white;
+	display: inline;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+	transition: all 0.3s 0.1s linear;
+	color: white;
+}
+
+#myCarousel .carousel-inner div .three .course:hover{
+	background-color: #FF6700;
+	color: white;
+	border: 1px solid #FF6700;
+	
+}	
+	
+	/*第4页*/
+	
+#myCarousel .carousel-inner div .four .h1{
+	font-size: 54px;
+	display: inline;
+	outline: 3px solid white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}	
+
+#myCarousel .carousel-inner div .four .h3{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#myCarousel .carousel-inner div .four a{
+	
+	display: block;
+	margin-top: 40px;
+	text-decoration: none;
+}
+
+#myCarousel .carousel-inner div .four .course{
+	margin-top: 40px;
+	border: 1px solid white;
+	display: inline;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 4px;
+	transition: all 0.3s 0.1s linear;
+	color: white;
+}
+
+#myCarousel .carousel-inner div .four .course:hover{
+	background-color: #FF6700;
+	color: white;
+	border: 1px solid #FF6700;
+	
+}
+
+/*第五页*/
+
+#myCarousel .carousel-inner div .five .h1{
+	margin-bottom: 30px;
+	font-family: "微软雅黑";
+	font-size: 54px;
+	display: inline;
+	/*border: 1px solid gold;*/
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+
+#myCarousel .carousel-inner div .five a{
+	display: inline-block;
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+	background-color:#ff6700 ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	font-family: "微软雅黑";
+}
+
+
+/*----------------轮播图每页内容的css样式结束-------------------*/
+
+
+/*轮播图区域结束*/
+
+
+/*引言部分开始*/
+.container.slogan-container{
+	/*height: 1050px;*/
+	/*border: 1px solid fuchsia;*/
+}
+
+.container .row{
+	/*border: 1px solid black;*/
+	margin-bottom: 80px;
+}
+
+.container .row div{
+	/*border: 1px solid red;*/
+	/*transition: all 0.5s;*/
+}
+
+.container .row p{
+	transition: all 0.5s;
+}
+
+
+.container .row p:hover{
+	transform: scale(1.2,1.2);
+}
+
+.container .row h1{
+	transition: all 0.5s;
+}
+
+.container .row h1:hover{
+	transform: scale(1.2,1.2);
+}
+
+.container .row h3{
+	transition: all 0.5s;
+}
+
+.container .row h3:hover{
+	transform: scale(1.2,1.2);
+}
+
+
+.container .title div{
+
+	text-align: center;
+	font-size: 32px;
+
+	color: #3B3B3B;
+}
+
+.container .slogan div{
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+	text-align: center;
+	margin-top: -70px;
+	/*border: 1px solid blue;*/
+}
+
+.container .row div img{
+	
+	margin-left: 80px;
+	/*border: 1px solid royalblue;*/
+	
+	max-width: 169px;
+}
+
+.container .row div h3{
+	text-align: left;
+	color: #333333;
+	font-weight: 200;
+}
+
+.container .row div h1{
+	text-align: left;
+}
+
+.container .row div p{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.container .footer .slogan{
+	text-align: center;
+	font-size: 32px;
+	color: #FF6700;
+}
+
+.container .footer .img {
+	
+	margin-left: 0;
+	margin-top: 10px;
+	text-align: center;
+}
+/*引言部分结束*/
+
+
+/*关于我们部分开始*/
+#about-us{
+	
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 560px;
+	background-color: white;
+	/*border-bottom: 1px solid gainsboro;*/
+	               
+}
+
+#about-us .container{
+	/*border: 1px solid royalblue;*/
+	margin-bottom: 30px;
+}
+
+#about-us .container .row{
+	margin-top: 40px;
+	/*border: 1px solid black;*/
+}
+
+#about-us .container .row .col-lg-6{
+	/*border: 1px solid blue;*/
+	height: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+
+
+#about-us .container .row .col-lg-6 img{
+	max-width: 100%;
+	transition: all 2.5s;
+	margin-left: 0;
+}
+
+#about-us .container .row .col-lg-6 img:hover{
+	transform: scale(1.5,1.5);
+}
+
+#about-us .container .row .col-lg-6 .title{
+	margin-top: 80px;
+	font-size: 32px;
+	color: #333333;
+	margin-left: 60px;
+}
+
+#about-us .container .row .col-lg-6 .content{
+	font-size: 20px;
+	color: #707171;
+	line-height: 32px;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+
+#about-us .container .row .col-lg-6 .see-more{
+	margin-top: 15px;
+	font-size: 20px;
+	display: inline-block;
+	background-color: #FF6700;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 14px;
+	margin-left: 60px;
+	color: white;
+	transition: all 0.3s;
+	margin-bottom: 15px;
+	
+}
+
+#about-us .container .row .col-lg-6 .see-more a{
+	text-decoration: none;
+	color: white;
+}
+
+#about-us .container .row .col-lg-6 .see-more:hover{
+	background-color: #FF6700;
+	box-shadow:0px 4px 10px rgba(255,66,0,0.4);
+}
+/*关于我们部分结束*/
+
+
+/*特色服务开始*/
+
+#service{
+	width: 100%;
+	margin-top: 0px;
+/*	margin-bottom: 300px;*/
+	border-bottom: 1px solid gainsboro;
+	/*background-image: url(../img/service-bg.jpg);*/
+	background-color: white;
+	background-repeat: no-repeat;
+}
+#service .container{
+	background-color: white;
+	/*border: 1px solid gold;*/
+	margin-top: 50px;
+}
+
+
+#service .container .row{
+	/*border: 1px solid red;*/
+	margin-bottom: 40px;
+}
+
+
+#service .container.row .col-lg-12{
+
+	text-align: center;
+	/*border: 1px solid darkblue;*/
+}
+
+#service .container .row .col-lg-12 .service-title{
+	color: #333333;
+	margin-top: 20px;
+	font-size: 32px;
+	text-align: center;
+}
+
+#service .container .row .col-lg-12 .line{
+	border: 1px solid #FF6700;
+	width: 130px;
+	margin: 10px auto;
+	margin-bottom: 0px;
+}
+
+#service .row.service .col-lg-3{
+
+	text-align: center;
+	/*border: 1px solid blueviolet;*/
+	/*transition: all 0.5s;*/
+	/*overflow: hidden;*/
+}
+
+/*#service .row.service  .col-lg-3:hover{
+	margin-top: -15px;
+	box-shadow: 5px 10px 25px 8px #CDCDCD;
+}*/
+
+#service .container .row.service  .col-lg-3 .box{
+	transition: all 0.5s;
+	padding: 4px;
+	outline: 1px solid #F5F5F5;
+	position: relative;
+	width: 100%;
+	height: 366px;
+	background-color: white;
+	overflow: hidden;
+}
+
+#service .container .row.service  .col-lg-3 .box:hover{
+	margin-top: -15px;
+	box-shadow: 5px 10px 25px 8px #CDCDCD;
+}
+
+
+
+#service .container .row.service  .col-lg-3 .box .icon{
+	/*background-image: url(../img/ppt.png);
+	background-repeat: no-repeat;*/
+	height: 128px;
+	width: 128px;
+	position: absolute;
+	left: 66px;
+	top: 50px;
+	/*border: 1px solid red;*/
+	
+}
+
+#service .container .row.service  .col-lg-3 .box .tip{
+	position: absolute;
+	left: 100px;
+	font-size: 16px;
+	width: 60px;
+	height: 24px;
+	background-color: #83C44E;
+	color: white;
+}
+
+#service .container .row.service  .col-lg-3 .box .name{
+	position: absolute;
+	font-size: 16px;
+	width: 160px;
+	left: 50px;
+	top: 230px;
+	color: #333333;
+	font-weight: 600;
+	letter-spacing: 1px;
+	/*outline: 1px solid fuchsia;*/
+}
+
+#service .container .row.service  .col-lg-3 .box .content{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #FF6700;
+	bottom: -100px;
+	color: white;
+	text-align: center;
+	transition: all 0.5s;
+	padding: 15px;
+	font-size: 14px;
+	left: 0;
+}
+
+#service .container .row.service  .col-lg-3 .box:hover .content{
+	bottom: 0px;
+}
+/*特色服务结束*/
+
+
+/*我们的优势部分开始*/
+#service .container .row.advantage .col-lg-3{
+	background-color: white;
+	/*border: 1px solid gold;*/
+	
+}
+
+#service .container .row.advantage .col-lg-3 .wrap{
+	border-radius: 4px ;
+	background-color: white;
+	max-width: 98%;
+	margin-left: 1%;
+	box-shadow: rgb(187, 219, 255) 0px 0px 20px 0px;
+}
+
+#service .container .row.advantage .col-lg-3 .wrap .ad-icon {
+	
+	margin: 0 auto;
+	width: 128px;
+	height: 128px;
+	/*border: 1px solid palegreen;*/
+	
+}
+
+#service .container .row.advantage .col-lg-3 .wrap .ad-icon img{
+	display: block;
+	margin-left: 0;
+	padding-top: 15px;
+	
+	
+}
+
+#service .container .row.advantage .col-lg-3 .wrap .name{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin: 10px auto;
+	margin-top: 35px;
+}
+
+#service .container .row.advantage .col-lg-3 .wrap .content{
+	font-size: 14px;
+	color: #999999;
+	margin: 5px auto;
+	text-align: center;
+	max-width: 200px;
+	padding-bottom: 15px;
+}
+/*我们的优势部分结束*/
+
+
+
+/*延续特色服务的栅格结构，作品展示部分开始*/
+
+#service .container .row .col-lg-12{
+	/*border: 1px solid gold;*/
+}
+
+#service .container .row .col-lg-12 .shows-title{
+	color: #333333;
+	margin-top: 20px;
+	font-size: 32px;
+	text-align: center;
+}
+
+
+#service .container .row .col-lg-12 .intro{
+	text-align: center;
+	color: #3B3B3B;
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 32px;
+}
+
+#service .container .row .col-lg-4{
+	/*border: 1px solid peru;*/
+	
+}
+
+
+#service .container .row .col-lg-4 .box{
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+
+#service .container .row .col-lg-4 .box .top-circle{
+	position: absolute;
+	z-index: 4;
+	border-radius: 25px;
+	position: absolute;
+	left: 153px;
+	top: 100px;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(255,103,0,0.7);
+}
+
+
+#service .container .row .col-lg-4 .box .top-floor{
+	transition: all 0.3s;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(0,0,0,0.4);
+	left: 0;
+	top: -200px;
+}
+
+#service .container .row .col-lg-4 .box .top-floor .content{
+	text-decoration: none;
+	text-align: center;
+	/*border: 1px solid darkblue;*/
+	position: absolute;
+	top: 50px;
+	left: 38px;
+	width: 280px;
+	height: 100px;
+	color: white;
+	font-size: 15px;
+}
+
+#service .container .row .col-lg-4 .box a .face{
+	transition: all 0.5s;
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	color: #000000;
+	left: 0;
+	top: 0;
+}
+
+
+#service .container .row .col-lg-4 .box .p-name{
+	text-align: center;
+	width: 100%;
+	transition: all 0.3s;
+	z-index: 4;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	/*border: 1px solid cyan;*/
+	color: #333333;
+	font-size: 20px;
+}
+
+
+#service .container .row .col-lg-4 .box .bottom-floor{
+	transition: all 0.3s;
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	height: 80px;
+	left: 0;
+	bottom: -78px;
+	background-color: #FF6700;
+}
+
+
+#service .container .row .col-lg-4 .box:hover .top-floor{
+	top: 0px;
+}
+
+#service .container .row .col-lg-4 .box:hover .bottom-floor{
+	bottom: 0;
+}
+
+#service .container .row .col-lg-4 .box:hover .p-name{
+	font-size: 15px;
+	color: white;
+}
+
+#service .container .row .col-lg-4 .box:hover .face{
+	transform: scale(1.4,1.4);
+}
+
+/*延续特色服务的栅格结构，作品展示部分结束*/
+
+
+/*---------------------------公共部分开始------------------------------------------*/
+
+/*底部区域开始*/
+
+.main-footer{
+	background-color: #23282D;
+	/*height: 400px;*/
+	/*margin-bottom: 300px;*/
+}
+
+
+.main-footer .container{
+	
+	/*border: 1px solid white;*/
+}
+
+.main-footer .container .row{
+	margin-bottom: 20px;
+	/*border: 1px solid gold;*/
+}
+
+
+.main-footer .container .row .col-lg-3{
+	/*border: 1px solid palegreen;*/
+	color: white;
+	text-align: center;
+}
+
+.main-footer .container .row .col-lg-3 .title{
+	color: white;
+	font-size: 20px;
+	line-height: 80px;
+}
+
+.main-footer .container .row .col-lg-3 .content a{
+	transition: all 0.2s;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 28px;
+	color: #8A939D;
+}
+
+.main-footer .container .row .col-lg-3 .content a:hover{
+	color: #FF6700;
+}
+
+
+.main-footer .container .row .col-lg-3 .media-logo{
+	width: 100%;
+	height: 60px;
+	/*border: 1px solid forestgreen;*/
+}
+
+.main-footer .container .row .col-lg-3 .media-logo .container{
+	/*outline: 1px solid white;*/
+	max-width: 100%;
+}
+
+.main-footer .container .row .col-lg-3 .media-logo .container .row{
+	/*border: 1px solid wheat;*/
+}
+
+
+.main-footer .container .row .col-lg-3 .media-logo .container .row .col-lg-4{
+	/*border: 1px solid green;*/
+	
+}
+
+.main-footer .container .row .col-lg-3 .media-logo .container .row .col-lg-4 a img{
+	max-width: 45px;
+	margin-left: -1px;
+}
+
+.main-footer .container .row .col-lg-12{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #8A939D;
+	/*margin-top: -50px;
+}
+
+
+.main-footer .container .row .col-lg-6{
+	/*margin-top: -20px;*/
+	/*border: 1px solid gold;*/
+}
+
+.main-footer .container .row .col-lg-6 .corporation{
+	transition: all 0.2s;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 28px;
+	color: #8A939D;
+}
+
+.main-footer .container .row .col-lg-6 a{
+	transition: all 0.2s;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 28px;
+	color: #8A939D;
+}
+
+/*底部区域结束*/
+
+
+
+/*点击返回顶部的按钮开始*/
+#back-to-top{
+	transition: all 0.3s;
+	position: fixed;
+    right: 20px;
+    bottom: 60px;
+    background: rgba(255,103,0,0.6);
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+    display: none;
+     width: 40px;
+    height: 40px;
+    border-radius: 3px ;
+    
+}
+
+
+#back-to-top:hover{
+	background: rgba(255,103,0,0.99);
+}
+
+#back-to-top i {
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 30px;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+/*点击返回顶部的按钮结束*/
+
+/*------------------------------------------------------------------------------公共部分结束------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------关于我们页面开始------------------------------------------------*/
+
+
+
+section.one .container-fluid.top-container-fluid .row .col-lg-12{
+	position: relative;
+}
+
+
+section.one .container-fluid.top-container-fluid .row .col-lg-12.title{
+	border: 1px solid gold;
+}
+
+
+.container.main-container{
+	margin-top: 40px;
+}
+
+.container.main-container .row{
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+
+.container.main-container .row .col-lg-12 .title{
+	text-align: center;
+	font-size: 32px;
+	color: #333333;
+}
+
+.container.main-container .row .col-lg-12 .line{
+	
+	border: 1px solid #FF6700;
+	width: 130px;
+	margin: 10px auto;
+	margin-bottom: 0px;
+}
+
+
+.container.main-container .row .col-lg-7{
+	border: 1px solid greenyellow;
+}
+
+.container.main-container .row .col-lg-7 img{
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.container.main-container .row .col-lg-5{
+	border: 1px solid greenyellow;
+}
+
+.container.main-container .row .col-lg-6{
+	/*border: 1px solid gold;*/
+}
+
+.container.main-container .row .col-lg-6 img{
+	transition: all 0.5s;
+	display: block;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+
+.container.main-container .row .col-lg-6 h4{
+	transition: all 0.5s;
+	margin-top: 55px;
+	font-size: 24px;
+	color: #333333;
+	font-family: "微软雅黑";
+	font-weight: 400;
+}
+
+
+
+.container.main-container .row .col-lg-6 span{
+	display: block;
+	margin-top: 25px;
+	font-size: 16px;
+	color: #3C3C3C;
+	line-height: 28px;
+	font-family: "微软雅黑";
+	
+}
+
+.container.main-container .row .col-lg-12 img{
+	max-width: 100%;
+	margin-left: 0;
+}
+
+
+
+section.two{
+	/*border: 1px solid brown;*/
+	height: 563px;
+	
+}
+
+
+section .bottom-container{
+	/*border: 1px solid gold;*/
+}
+
+section .bottom-container .row {
+	margin-top: 45px;
+}
+
+section .bottom-container .row .col-lg-12 .headline{
+	/*border: 1px solid red;*/
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
+
+section .bottom-container .row .col-lg-3 .box{
+	margin-left: 2%;
+	width: 96%;
+	/*border: 1px solid gold;*/
+}
+
+section .bottom-container .row .col-lg-3 .box img{
+	margin: 0 auto;
+	/*border: 1px solid fuchsia;*/
+}
+
+
+section .bottom-container .row .col-lg-3 .box .all{
+	margin-top: 45px;
+	/*border: 1px solid navajowhite;*/
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+
+section .bottom-container .row .col-lg-3 .box .detials{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+
+section.four {
+	height: 290px;
+}
+
+
+section.four   .foot-container .row .col-lg-12{
+	text-align: center;
+	margin-top: 90px;
+	/*border: 1px solid red;*/
+	
+}
+
+section.four  .foot-container .row .col-lg-12 a{
+	transition: all 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: white;
+	font-size: 24px;
+	background-color: #4f87ff;
+	width: auto;
+	line-height: 56px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
+section.four .foot-container .row .col-lg-12 a:hover{
+	background-color: #4f68ff;
+}
+
+section.nine .container{
+	/*border: 1px solid gold;*/
+}
+
+section.nine .container .row .col-lg-12 .title{
+	margin-top: 45px;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-size: 32px;
+	color: #333333;
+}
+
+section.nine .container .row .col-lg-12 .line{
+	border: 1px solid #FF6700;
+	width: 130px;
+	margin: 10px auto;
+	margin-bottom: 0px;
+}
+
+section.nine .container .row .col-lg-6{
+	/*border: 1px solid red;*/
+}
+
+#title{
+	font-size: 22px;
+	color: #3C3C3C;
+	text-align: left;
+	font-family: "微软雅黑";
+	margin-bottom: 15px;
+}
+
+section.nine .container .row .col-lg-6 ul li{
+	font-family: "微软雅黑";
+	position: relative;
+	margin-bottom: 10px;
+	height: 30px;
+	line-height: 30px;
+	/*border: 1px solid greenyellow;*/
+	list-style: none;
+	font-size: 16px;
+	color: #a3a3a3;
+}
+
+section.nine .container .row .col-lg-6 ul li img{
+	margin-right: 5px;
+	margin-bottom: 5px;
+	line-height: 30px;
+	margin-left: 0;
+	display: inline-block;
+	width: 20px;
+	
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------关于我们页面结束------------------------------------------------*/
+
+/*---------------------------------------------------------------------------文章列表视图区域css样式开始------------------------------------------------------------*/
+
+.container.article-con{
+	/*border: 1px solid green;*/
+	box-shadow: 5px 10px 25px 8px #CDCDCD;
+	background-color: white;
+	/*height: 800px;*/
+	/*width: 1500px;*/
+	margin-top: 70px;
+	   
+}
+
+
+.container.article-con .row.top-pic .col-lg-12{
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+
+.container.article-con .row.top-pic .col-lg-12 img{
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.container.article-con .row.article-kind{
+	margin-top: 15px;
+	border-top: 1px solid gainsboro;
+	margin-bottom: 20px;
+	/*border: 1px solid red;*/
+}
+
+.container.article-con .row.article-kind .col-lg-12{
+	/*border: 1px solid palegreen;*/
+	margin-top: 10px;
+}
+
+
+.container.article-con .row.article-kind .col-lg-12 .title{
+	display: inline-block;
+	color: #737373;
+	font-size: 24px;
+	border-left: 3px solid #ff6700;
+	/*background-color: #000000;*/
+	width: 80%;
+	margin-left: 3%;
+	padding-left: 10px;
+	line-height: 36px;
+}
+
+
+.container.article-con .row.article-kind .col-lg-12 .read-more{
+	transition: all 0.4s;
+	width: 48px;
+	height: 24px;
+	background-color: #ff8a00;
+	float: right;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+	margin-top: 5px;
+	border-radius: 12px;
+	text-decoration: none;
+	margin-right:3% ;
+}
+
+
+
+.container.article-con .row.article-kind .col-lg-12 .read-more:hover{
+	background-color: #ff1e00;
+}
+
+
+.container.article-con .row{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+}
+
+
+.container.article-con .row .col-lg-4{
+	/*border: 1px solid gainsboro;*/
+	transition: all 0.5s;
+	margin-bottom: 30px;
+	height: 200px;
+	/*border: 1px solid red;*/
+	border-radius: 4px;
+}
+
+.container.article-con .row .col-lg-4:hover{
+	/*box-shadow: 1px 5px 20px 8px #e7e7e7;*/
+}
+
+
+.container.article-con .row .col-lg-4 a img{
+	transition: all 0.5s;
+	/*border: 1px solid #797979;*/
+	border-radius: 2px;
+	max-width: 80%;
+	margin-left: 10%;
+	vertical-align: middle;
+}
+
+.container.article-con .row .col-lg-4 a img:hover{
+	margin-top: -10px;
+	box-shadow: 1px 5px 20px 8px #e7e7e7;
+	
+}
+
+
+.container.article-con .row .col-lg-4 a {
+	transition: all 0.3s;
+	text-decoration: none;
+	display: block;
+	color: #737373;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 14px;
+	
+}
+
+.container.article-con .row .col-lg-4 a:hover{
+	color: #ff6700;
+}
+
+
+
+/*---------------------------------------------------------------------------文章列表视图区域css样式结束------------------------------------------------------------*/
+
+
+/*工具推荐页面css样式开始*/
+
+section.five{
+	border: 1px solid green;
+}
+
+section.five img{
+	margin-top: 70px;
+}
+/*工具推荐页面css样式结束*/
+
+
+/*---------------------------------------------------------------------------每篇文章具体css样式开始---------------------------------------*/
+.container.content{
+	box-shadow: 5px 10px 25px 8px #CDCDCD;
+	background-color: white;
+
+	margin-top: 70px;
+}
+
+.container.content .row{
+	margin-bottom: 25px;
+}
+
+.container.content .row.top-line{
+	margin-top: 30px;
+	
+}
+
+.container.content .row.top-line .col-lg-12{
+	border-bottom: 1px solid #c7c7c7
+}
+
+.container.content .row.title .col-lg-12{
+	/*border: 1px solid gray;*/
+}
+
+.container.content .row.title .col-lg-12 h2{
+	font-family: "微软雅黑";
+	font-size: 36px;
+	color: #333333;
+}
+
+.container.content .row.title .col-lg-12 h5{
+	font-family: "微软雅黑";
+	color: #8c8c8c;
+}
+
+
+.container.content .article-content{
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin-left: 5%;
+}
+
+.container.content .article-content span{
+	display: block;
+	/*text-indent: 2em;*/
+	line-height: 32px;
+	font-size: 16px;
+	color: #636363;
+	font-family: "微软雅黑";
+}
+
+.container.content .article-content span strong{
+	color: #242424;
+}
+
+.container.content .article-content img{
+	display: block;
+	/*border: 1px solid red;*/
+	max-width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: "微软雅黑";
+}
+
+.container.content .article-content .circle-title{
+	font-family: "微软雅黑";
+	width:200px;
+	height: 40px;
+	background-color: rgb(255,102,1);
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+	border-radius: 4px;
+	
+
+}
+
+
+.container.content .row.footer-line{
+	margin-top: 30px;
+}
+
+
+.container.content .row.footer-line .col-lg-12{
+	width: 100%;
+	border-bottom: 1px solid #c7c7c7
+}
+
+.container.content .row.article-nav{
+	/*border: 1px solid forestgreen;*/
+	width: 90%;
+	margin-left: 5%;
+	
+}
+
+.container.content .row.article-nav .col-lg-6{
+	/*width: 100%;*/
+	
+	/*border: 1px solid greenyellow;*/
+}
+
+.container.content .row.article-nav .col-lg-6 .last a{
+	text-decoration: none;
+	float: left;
+	color: #8c8c8c;
+	
+}
+
+.container.content .row.article-nav .col-lg-6 .next a{
+	text-decoration: none;
+	float: right;
+	color: #8c8c8c;
+	
+}
+
+.container.content .row.article-nav .col-lg-6 div a:hover{
+	color: #ff6700;
+}
+
+.container.content .row.share{
+	/*border: 1px solid green;*/
+	width: 90%;
+	margin-left: 5%;
+}
+
+.container.content .row.share .col-lg-6{
+	
+}
+/*----------------------------------------------每篇文章具体css样式结束-----------------------------*/
+
+
+
+/*----------------------------------------------工具推荐部分css样式开始-------------------*/
+
+.container.tools-container{
+	background-color: white;
+	/*border: 1px solid gold;*/
+}
+
+.container.tools-container .row .col-lg-12{
+	
+	text-align: center;
+}
+
+
+.container.tools-container .row.main{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.container.tools-container .row .col-lg-4{
+	/*border: 1px solid blue;*/
+	background-color: white;
+}
+
+.container.tools-container .row .col-lg-4 a img{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 100%;
+	margin-left: 10%;
+	
+}
+
+.container.tools-container .row .col-lg-8{
+	height: 100%;
+	/*border: 1px solid palegreen;*/
+	background-color: white;
+}
+
+.container.tools-container .row .col-lg-8 .title{
+	margin-top: 15px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #201f1f;
+	margin-bottom: 20px;
+}
+
+.container.tools-container .row .col-lg-8 .author{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #8c8c8c;
+	margin-bottom: 10px;
+	
+}
+
+.container.tools-container .row .col-lg-8 .intro{
+	font-size: 15px;
+	color: #747474;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+
+.container.tools-container .row .col-lg-8 a{
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 30px;
+	display: inline-block;
+	margin-top: 10px;
+	background-color: #ff6601;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+
+.container.tools-container .row .col-lg-8 a .learn-more{
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: white;
+}
+/*---------------------------------------------工具推荐部分css样式结束------------------*/
+
+
+/*---------------------------------------------工具推荐部分每篇文章的样式开始------------------*/
+
+.container.zds-container{
+	background-color: white;
+	margin-top: 100px;
+}
+
+
+.container.zds-container .row .col-lg-12{
+	border-bottom: 1px solid #eeeeee;
+
+	margin-top: 40px;
+	/*border: 1px solid #D43F3A;*/
+}
+
+.container.zds-container .row .col-lg-12 .title{
+	font-size: 32px;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-weight: 600;
+	color: #3C3C3C;
+}
+
+.container.zds-container .row .col-lg-12 .detials{
+	padding-bottom: 30px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #8c8c8c;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.container.zds-container .row.article-content{
+	margin-left: 5%;
+	max-width: 90%;
+	margin-top: -45px;
+	/*border: 1px solid fuchsia;*/
+}
+
+.container.zds-container .row.article-content span{
+	display: block;
+	font-size: 15px;
+	color: #6a6a6a;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	letter-spacing: 1px;
+	/*text-indent: 2em;*/
+}
+
+.container.zds-container .row .foot-line{
+	margin-top: -30px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.container.zds-container .row.article-nav{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: -70px;
+	/*border: 1px solid goldenrod;*/
+}
+
+.container.zds-container .row.article-nav .last a{
+	color: #ff6700;
+	text-align: left;
+	text-decoration: none;
+}
+
+.container.zds-container .row.article-nav .next a{
+	float: right;
+	/*border: 1px solid red;*/
+	color: #ff6700;
+	text-align: right;
+	text-decoration: none;
+}
+
+
+
+/*---------------------------------------------工具推荐部分每篇文章的样式结束------------------*/
+
+
+
+
+/*-----------------------------------------------下载中心css样式开始--------------------------------*/
+
+.container.download-container{
+	margin-top: 100px;
+	/*border: 1px solid gainsboro;*/
+	
+}
+
+.container.download-container .row{
+	margin-bottom: 25px;
+}
+
+.container.download-container .row .col-lg-12.top-img{
+	/*background-color: white;*/
+}
+
+
+.container.download-container .row .col-lg-12.top-img img{
+	
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.container.download-container .row.kinds{
+	margin-top: 25px;
+}
+
+
+.container.download-container .row.kinds .col-lg-12{
+	
+	margin-top: 0px;
+	/*outline: 1px solid gray;*/
+	text-align: left;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #ff6700;
+	line-height: 36px;
+}
+
+
+.container.download-container .row.list .col-lg-3 .box{
+	transition: all 0.2s;
+	height: 215px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 4px 0px;
+	/*border: 1px solid gold;*/
+	
+}
+
+.container.download-container .row.list .col-lg-3 .box:hover{
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+}
+
+
+
+.container.download-container .row.list .col-lg-3 .box a img{
+	border-bottom: 1px solid gainsboro;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.container.download-container .row.list .col-lg-3 .box .name{
+	margin-left: 10px;
+	color: #757575;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+
+.container.download-container .row.list .col-lg-3 .box .date-see{
+	
+	background-color: white;
+	/*border: 1px solid blue;*/
+}
+
+.container.download-container .row.list .col-lg-3 .box .date-see .date{
+	margin-left: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #999999;
+	/*border: 1px solid gold;*/
+	float: left;
+}
+
+
+
+.container.download-container .row.list .col-lg-3 .box .date-see .see{
+	margin-right: 10px;
+	position: relative;
+	/*border: 1px solid green;*/
+	float: right;
+	text-align: left;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #999999;
+}
+
+.container.download-container .row.list .col-lg-3 .box .date-see img{
+	margin-top: 2px;
+	display: block;
+	float: left;
+	margin-left: 110px;
+}
+
+
+/*-----------------------------------------------下载中心css样式结束--------------------------------*/
+
+
+/*----------------------------------------------特色服务页面开始----------------------------*/
+
+section.six a img{
+	margin-top: 70px;
+	display: block;
+}
+
+/*服务流程开始*/
+.container-fluid.service-container-fluid{
+	margin-top: 50px;
+	/*border: 1px solid fuchsia;*/
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12{
+	margin-bottom: 25px;
+	text-align: center;
+	/*border: 1px solid gold;*/
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12 .title{
+	font-size: 28px;
+	color: #636363;
+	font-family: "微软雅黑";
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12 .big-line{
+	
+	margin: 0 auto;
+	margin-top: 10px;
+	max-width: 90px;
+	border: 2px solid #ff6700;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12 .small-line{
+	margin: 0 auto;
+	border-top: 1px solid #dddddd;
+	max-width: 510px;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12 .intro{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #636363;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12.disting{
+	
+	margin-top: 50px;
+	/*border: 1px solid palegreen;*/
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12.disting .wrap{
+	display: flex;
+	margin-left: 10%;
+	max-width: 80%;
+	/*border: 1px solid hotpink;*/
+	justify-content: space-around;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12.disting .wrap .box{
+	transition: all 0.4s;
+	width: 220px;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12.disting .wrap .box:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: rgb(187, 219, 255) 0px 0px 20px 0px;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12.disting .wrap .box .name{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: #3a64c6;
+}
+
+.container-fluid.service-container-fluid .row .col-lg-12.disting .wrap .box .con{
+	font-size: 14px;
+	color: #666666;
+	margin-top: 20px;
+}
+
+/*服务流程结束*/
+
+
+/*设计师介绍开始*/
+section.seven{
+	margin-top: 20px;
+	background-color: #e7f5ff;
+	height: 1060px;
+}
+
+section.seven .container.designer{
+	/*border: 1px solid blue;*/
+	
+}
+
+section.seven .container.designer .row .col-lg-12 .title{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 28px;
+	color: #636363;
+	font-family: "微软雅黑";
+}
+
+section.seven .container.designer .row .col-lg-12 .big-line{
+	margin: 0 auto;
+	margin-top: 10px;
+	max-width: 90px;
+	border: 2px solid #ff6700;
+}
+
+section.seven .container.designer .row .col-lg-12 .small-line{
+	margin: 0 auto;
+	border-top: 1px solid #dddddd;
+	max-width: 510px;
+}
+
+section.seven .container.designer .row .col-lg-12 .intro{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #636363;
+}
+
+section.seven .container.designer .row{
+	margin-bottom: 25px;
+}
+
+section.seven .container.designer .row .col-lg-3{
+	margin-top: 15px;
+	/*border: 1px solid black;*/
+}
+
+section.seven .container.designer .row .col-lg-3 .box{
+	transition: all 0.3s;
+	background-color: white;
+	width: 240px;
+	/*border: 1px solid indianred;*/
+	margin-left: 10px;
+}
+
+section.seven .container.designer .row .col-lg-3 .box:hover{
+	box-shadow: 2px 2px 15px rgba(111,111,111,0.4);
+}
+
+section.seven .container.designer .row .col-lg-3 .box img.head-icon{
+	margin-top: 15px;
+	display: block;
+	border: 4px solid #e7f5ff;
+	margin-left: 35px;
+	
+}
+
+section.seven .container.designer .row .col-lg-3 .box .name{
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+	color: #87d0ff;
+}
+
+section.seven .container.designer .row .col-lg-3 .box .status{
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+	color: #d5efff;
+}
+
+section.seven .container.designer .row .col-lg-3 .box a{
+	
+	border-radius: 10px;
+	height: 60px;
+	display: block;
+	width: 90%;
+	background-color: #87d0ff;
+	margin-top: 20px;
+	margin-left: 5%;
+	margin-bottom: 15px;
+	
+}
+
+section.seven .container.designer .row .col-lg-3 .box a img{
+	margin-top: 6px;
+	margin-left: 25px;
+	float: left;
+}
+
+section.seven .container.designer .row .col-lg-3 .box a span{
+	line-height: 60px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-left: 20px;
+}
+/*设计师介绍结束*/
+
+
+/*服务特色开始*/
+section.eight{
+	background-color: #f6f6f6;
+	height: 2900px;
+}
+
+section.eight .container.bottom-container .row .title{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 28px;
+	color: #636363;
+	font-family: "微软雅黑";
+	
+}
+
+section.eight .container.bottom-container .row .big-line{
+	margin: 0 auto;
+	margin-top: 10px;
+	max-width: 90px;
+	border: 2px solid #ff6700;
+}
+
+section.eight .container.bottom-container .row .small-line{
+	margin: 0 auto;
+	border-top: 1px solid #dddddd;
+	max-width: 510px;
+}
+
+section.eight .container.bottom-container .row .intro{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #636363;
+}
+
+section.eight .container.bottom-container .row .col-lg-4{
+	/*background-color: white;*/
+	/*border: 1px solid fuchsia;*/
+}
+
+section.eight .container.bottom-container .row .col-lg-4 .wrap{
+	transition: all 0.3s;
+	background-color: white;
+	margin-left: 10px;
+	width: 340px;
+	/*border: 1px solid darkcyan;*/
+}
+
+section.eight .container.bottom-container .row .col-lg-4 .wrap:hover{
+	margin-top: -15px;
+}
+
+section.eight .container.bottom-container .row .col-lg-4 .wrap img{
+	display: block;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	margin-left: 107px;
+}
+
+section.eight .container.bottom-container .row .col-lg-4 .wrap .slogan{
+	
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+
+/*服务特色结束*/
+
+/*案例展示开始*/
+section.eight .container.bottom-container .row {
+	margin-bottom: 25px;
+}
+
+section.eight .container.bottom-container .row .col-lg-6{
+	margin-bottom: 25px;
+	/*border: 1px solid red;*/
+}
+
+section.eight .container.bottom-container .row .col-lg-6 .box{
+	overflow: hidden;
+	position: relative;
+	/*border: 1px solid greenyellow;*/
+}
+
+section.eight .container.bottom-container .row .col-lg-6 .box img{
+	display: block;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+section.eight .container.bottom-container .row .col-lg-6 .box .intro{
+	font-size: 20px;
+	text-align: center;
+	transition: all 0.2s;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 40px;
+	bottom: -40px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	font-family: "微软雅黑";
+	font-weight: 600;
+}
+
+section.eight .container.bottom-container .row .col-lg-6 .box:hover .intro{
+	bottom: 0px;
+}
+/*案例展示结束*/
+
+
+/*价格指导开始*/
+.row.price .col-lg-3{
+	/*border: 1px solid goldenrod;*/
+}
+
+
+.row.price .col-lg-3 .box{
+	transition: all 0.3s;
+	background-color: white;
+	/*border: 1px solid red;*/
+}
+
+.row.price .col-lg-3 .box:hover{
+	margin-top: -15px;
+}
+
+.row.price .col-lg-3 .box:hover .name{
+	color: #ff6700;
+}
+
+.row.price .col-lg-3 .box:hover .e-name{
+	color: gray;
+}
+
+.row.price .col-lg-3 .box:hover .foot{
+	background-color: #ff6700;
+}
+
+.row.price .col-lg-3 .box .name{
+	transition: all 0.3s;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #3B3B3B;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+.row.price .col-lg-3 .box .e-name{
+	transition: all 0.3s;
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #ff6700;
+	text-align: center;
+}
+
+.row.price .col-lg-3 .box ul{
+	margin-top: 20px;
+}
+
+
+.row.price .col-lg-3 .box ul li{
+	position: relative;
+	line-height: 30px;
+	font-size: 15px;
+	height: 30px;
+	color: RGB(102,102,102);
+	background-color: #eff1ed;
+	margin-bottom: 2px;
+	text-align: center;
+	list-style: none;
+}
+
+.row.price .col-lg-3 .box ul li img{
+	position: absolute;
+	top: 7px;
+	left: 180px;
+}
+
+
+.row.price .col-lg-3 .box .foot{
+	transition: all 0.3s;
+	height: 50px;
+	background-color: #616161;
+}
+
+.row.price .col-lg-3 .box .foot .money{
+	
+	font-family: "微软雅黑";
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: 600;
+}
+
+.row.price .col-lg-3 .box .foot .start{
+	border-radius: 10px;
+	text-align: center;
+	line-height: 30px;
+	width: 80px;
+	margin-right: 10px;
+	color: black;
+	float: right;
+	height: 30px;
+	background-color: white;
+	margin-top: 10px;
+}
+
+/*价格指导结束*/
+
+/*客户需知部分开始*/
+
+.row .tip.col-lg-12{
+	text-align: center;
+	color: #ff6700;
+	font-size: 15px;
+	margin-top: -20px;
+}
+
+
+.row .notice.col-lg-12{
+	font-family: "微软雅黑";
+	font-weight: 700;
+	/*border: 1px solid firebrick;*/
+	font-size: 20px;
+	color: #3B3B3B;
+	text-align: left;
+}
+
+.row .col-lg-6.q-a{
+	margin-top: -20px;
+	margin-bottom: 20px;
+	background-color: #f6f6f6;
+	
+}
+.row .col-lg-6.q-a .box{
+	margin-left: 5%;
+	border-bottom: 1px solid #cdcdcd;
+	width: 90%;
+}
+
+
+.row .col-lg-6.q-a .box .question{
+	text-align: left;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #3C3C3C;
+	font-weight: 500;
+}
+
+.row .col-lg-6.q-a .box .answer{
+	transition: all 0.2s;
+	text-align: left;
+	font-size: 12px;
+	line-height: 28px;
+	color: #cdcdcd;
+	font-family: "微软雅黑";
+}
+
+.row .col-lg-6.q-a .box .answer:hover{
+	color: #ff6700;
+}
+/*客户需知部分结束*/
+
+
+/*----------------------------------------------特色服务页面结束----------------------------*/
+
+
+
+/*-------------------------------------------作品案例展示界面开始---------------------*/
+
+.container.product-show .row .col-lg-12{
+	margin-top: 30px;
+	/*border: 1px solid greenyellow;*/
+}
+
+.container.product-show .row .col-lg-12 span{
+	color: #333354;
+	font-family: "微软雅黑";
+	text-align: center;
+	display: block;
+}
+
+.container.product-show .row .col-lg-6{
+	margin-bottom: 0px;
+	/*border: 1px solid red;*/
+}
+
+.container.product-show .row .col-lg-6 .wrap{
+	overflow: hidden;
+	position: relative;
+	width: 98%;
+	margin-left: 1%;
+	/*border: 1px solid brown;*/
+}
+
+.container.product-show .row .col-lg-6 .wrap .mask{
+	display: none;
+	transition: all 1s;
+	z-index: 3;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.4);
+
+}
+
+.container.product-show .row .col-lg-6 .wrap .name{
+	display: none;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	top: 45%;
+	text-align: center;
+	/*border: 1px solid white;*/
+	width: 100%;
+	z-index: 4;
+	position: absolute;
+	color: white;
+	font-family: "微软雅黑";
+	
+}
+
+
+.container.product-show .row .col-lg-6 .wrap:hover .mask{
+	display: block;
+}
+
+
+.container.product-show .row .col-lg-6 .wrap:hover .name{
+	display: block;
+}
+
+
+.container.product-show .row .col-lg-6 .wrap:hover img{
+	transform: scale(1.2,1.2);
+}
+
+
+.container.product-show .row .col-lg-6 .wrap img{
+	transition: all 1s;
+	max-width: 100%;
+	margin-left: 0;
+}
+
+
+/*-------------------------------------------作品案例展示界面结束---------------------*/
+
+
+/*=====================================每一个案例展示开始============================*/
+
+.container.product-container{
+	/*border: 1px solid fuchsia;*/
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.container.product-container .row{
+	margin-bottom: 20px;
+}
+
+.container.product-container .row .col-lg-9{
+	/*border: 1px solid forestgreen;*/
+}
+
+
+.container.product-container .row .col-lg-9 img{
+	max-width: 100%;
+	margin-left: 0;
+}
+
+
+.container.product-container .row .col-lg-3{
+	/*border: 1px solid red;*/
+}
+
+
+.container.product-container .row .col-lg-3 .name{
+	/*border: 1px solid navajowhite;*/
+	margin-top: 20px;
+	text-align: left;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #ff6700;
+	margin-bottom: -10px;
+}
+
+
+.container.product-container .row .col-lg-3 .intro{
+	line-height: 30px;
+	margin-top: 15px;
+	text-align: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: gray;
+	/*border: 1px solid darkgoldenrod;*/
+}
+
+.container.product-container .row.foot-nav{
+	margin-bottom: 15px;
+	justify-content: space-between;
+	display: flex;
+	/*border: 1px solid salmon;*/
+}
+
+.container.product-container .row.foot-nav>a{
+	transition: all 0.2s;
+	border-radius: 5px;
+	border: 3px solid #e5e5e5;
+}
+
+.container.product-container .row.foot-nav>a img{
+	width: 32px;
+}
+
+.container.product-container .row.foot-nav>a:hover{
+	border-color: #ff6700;
+}
+/*=====================================每一个案例展示结束============================*/

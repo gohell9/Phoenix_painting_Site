@@ -1,0 +1,480 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*-----------------------第一屏开始-------------------------------*/
+
+/*第一页开始*/
+
+#inherit-main .con{
+	height: 2200px;
+	width: 71%;
+	margin-left: 15%;
+	/*border: 1px solid red;*/
+}
+
+#inherit-main .con .swiper1 .one .box{
+	width: 100%;
+	height: 90%;
+	/*outline: 1px solid gainsboro;*/
+	position: relative;
+	
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .one .box .w-bg{
+	position: absolute;
+	width: 1200px;
+	height: 410px;
+	background-color: white;
+	border-radius: 5px;
+	left: 50px;
+	top: 90px;
+	box-shadow: -25px 25px 35px 10px rgba(200,200,200,0.4);
+}
+
+
+#inherit-main .con .swiper1 .one .box .head-line{
+	position: absolute;
+	font-size: 18px;
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 2px solid #C01D22;
+	top: 140px;
+	left: 110px;
+	border-radius: 4px;
+}
+
+#inherit-main .con .swiper1 .one .box img{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	right: 101px;
+	top: 90px;
+	border-radius: 4px;
+	max-height: 410px;
+}
+
+#inherit-main .con .swiper1 .one .box  p.content{
+	transition: all 0.3s;
+	position: absolute;
+	font-size: 13px;
+	text-align: left;
+	width: 400px;
+	left: 70px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	top: 194px;
+	color: #333333;
+	
+}
+
+#inherit-main .con .swiper1 .one .box  p.content:hover{
+	border-bottom: 1px solid #C01D22;
+}
+/*第一页结束*/
+/*----------------------*/
+/*第二页开始*/
+#inherit-main .con .swiper1 .two .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .two .box .white-bg{
+	position: absolute;
+	width: 1200px;
+	height: 410px;
+	background-color: white;
+	border-radius: 5px;
+	left: 40px;
+	top: 90px;
+	box-shadow: -25px 25px 35px 10px rgba(200,200,200,0.4);
+	
+}
+
+#inherit-main .con .swiper1 .two .box img{
+	max-height: 420px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	border-radius: 5px;
+	right: 70px;
+	top: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+	
+	
+}
+
+#inherit-main .con .swiper1 .two .box .text-wrap{
+	position: absolute;
+	width: 580px;
+	height: 290px;
+	/*background-color: gold;*/
+	left: 70px;
+	top: 120px;
+}
+
+#inherit-main .con .swiper1 .two .box .top-line{
+	width: 80px;
+	height: 2px;
+	position: absolute;
+	background-color: RGB(192,29,34);
+	left: 85px;
+	top: 160px;
+}
+
+#inherit-main .con .swiper1 .two .box .title{
+	position: absolute;
+	left: 85px;
+	top: 130px;
+	color: #262626;
+	font-size: 18px;
+	font-weight: 600;
+	
+}
+
+#inherit-main .con .swiper1 .two .box .content{
+	position: absolute;
+	font-size: 13px;
+	text-align: left;
+	width: 550px;
+	height: 210px;
+	left: 85px;
+	top: 170px;
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: #333333;
+	
+}
+
+#inherit-main .con .swiper1 .two .box .tips{
+	position: absolute;
+	/*background-color: RGB(0,122,255);*/
+	border: 1px solid RGB(192,29,34);
+	/*width: 280px;*/
+	height: 20px;
+	text-align: left;
+	line-height: 20px;
+	font-size: 12px;
+	color: RGB(192,29,34);
+	/*left: 85px;*/
+	bottom: 75px;
+	left: 85px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*第二页结束*/
+
+/*--------------------------------*/
+
+/*第三页开始*/
+#inherit-main .con .swiper1 .three .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .three img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+	/*border-radius: 10px;*/
+}
+
+/*第三页结束*/
+
+
+/*第4页开始*/
+#inherit-main .con .swiper1 .four .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .four img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+
+/*第4结束*/
+
+/*第5页开始*/
+#inherit-main .con .swiper1 .five .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .five img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+
+/*第5结束*/
+
+/*第6页开始*/
+#inherit-main .con .swiper1 .six .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .six img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+
+/*第6结束*/
+
+
+/*第7页开始*/
+#inherit-main .con .swiper1 .seven .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper1 .seven img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+
+/*第7结束*/
+
+/*-----------------------第一屏结束-------------------------------*/
+
+
+/*-----------------------第二屏开始-------------------------------*/
+
+
+/*第一页开始*/
+#inherit-main .con .swiper2 .one .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .one img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第一页结束*/
+
+
+/*第2页开始*/
+#inherit-main .con .swiper2 .two .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .two img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第2页结束*/
+
+
+/*第3页开始*/
+#inherit-main .con .swiper2 .three .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .three img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第3页结束*/
+
+
+/*第4页开始*/
+#inherit-main .con .swiper2 .four .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .four img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第4页结束*/
+
+
+/*第5页开始*/
+#inherit-main .con .swiper2 .five .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .five img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第5页结束*/
+
+
+/*第6页开始*/
+#inherit-main .con .swiper2 .six .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .six img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第6页结束*/
+
+/*第7页开始*/
+#inherit-main .con .swiper2 .seven .box{
+	width: 100%;
+	height: 90%;
+	
+	position: relative;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: no-repeat;
+}
+
+#inherit-main .con .swiper2 .seven img{
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+/*第7页结束*/
+
+/*-----------------------第二屏结束-------------------------------*/
+
+
+
+
+#inherit-main .con .video{
+	width: 100%;
+	height: 680px;
+	/*background-color: gold;*/
+	margin-top: 50px;
+	/*background-image: url(../fy-pic/fy-bg2.jpg);*/
+	background-repeat: repeat;
+}
+
+#inherit-main .con p.title{
+	font-size: 24px;
+	color: #d20001;
+	width: 40%;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 15px;
+}
+
+#inherit-main .con p.intro{
+	font-size: 14px;
+	color: #d20001;
+	width: 40%;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 15px;
+	color: #262626;
+	line-height: 24px;
+}
+
+#inherit-main .con  .v-2{
+	transition: all 0.5s;
+	max-height: 500px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#inherit-main .con  .v-2:hover{
+	box-shadow: -15px 15px 35px 15px rgba(180,180,180,0.5);
+}
+
+#inherit-main .con .mean{
+	width: 90%;
+	margin-left: 5%;
+	border: 1px solid goldenrod;
+	height: 600px;
+	margin-top: 15px;
+}
+

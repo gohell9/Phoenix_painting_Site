@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css\publish.css">
+
+    <script src="ckeditor/ckeditor.js">
+
+    </script>
+    <script>
+        function reset() {
+            CKEDITOR.instances.con.setData(' ');
+        }
+        function checked_title() {
+            var checked_title = document.forms["myForm"]["title"].value;
+            if(checked_title===""||checked_title==="null")
+            {
+                alert("没标题的新闻怎么能行呢!");
+                return false;
+            }
+            var check_author = document.forms["myForm"]["author"].value;
+            if(check_author===""||check_author==="null")
+            {
+                alert("一篇好的新闻肯定有个好的作者，请输入作者名!");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div style="text-align: center;">
+    <h2>凤画新闻发布中心</h2>
+    <form action="fun_database/insertData.php" method="post" name="myForm" onsubmit="return checked_title()">
+        标题: <label><input type="text" name="title" class="input_style"><br><br></label>
+        内容<label><textarea name="content" id="con"></textarea><br></label>
+        <script type="text/javascript">
+
+            CKEDITOR.replace('content', {
+                
+            });
+        </script>
+        <script>
+            function formReset()
+            {
+
+            }
+        </script>
+        分类:<label>
+        <select name="kind">
+            <option value="新闻">新闻</option>
+            <option value="公告">公告</option>
+ 
+        </select>
+    </label>
+        <br><br>
+        作者: <label><input type="text" name="author" class="input_style"></label>&nbsp
+        日期: <label><input type="date" name="date"><br><br></label>
+        <input type="submit" value="发布新闻" class="a_demo_two">
+        <input type="reset" value="重置内容" class="a_demo_two" onclick="formReset()"><br><br>
+        <!-- <a href="" >浏览新闻</a> -->
+    </form>
+</div>
+</body>
+</html>
